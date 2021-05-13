@@ -10,5 +10,5 @@
     "hotTemp": 95,
     "sensorName": "Core (Tctl/Tdie)",
     "pollingInterval": 100,
-    "enableRazerChroma": true
+    "enableRazerChroma": false
 }
