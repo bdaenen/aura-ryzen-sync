@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "hotColorRed": 255,
+    "hotColorGreen": 0,
+    "hotColorBlue": 0,
+    "coldColorRed": 0,
+    "coldColorGreen": 255,
+    "coldColorBlue": 0,
+    "coldTemp": 40,
+    "hotTemp": 95,
+    "sensorName": "Core (Tctl/Tdie)",
+    "pollingInterval": 100,
+    "enableRazerChroma": true
+}

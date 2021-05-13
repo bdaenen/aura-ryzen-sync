@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuraCpuSync", "AuraCpuSync\AuraCpuSync.csproj", "{47AB1375-4AE9-4098-9F38-EFE90A35113F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuraCpuSyncServiceInstaller", "AuraCpuSyncServiceInstaller\AuraCpuSyncServiceInstaller.csproj", "{381CD26C-CCDA-46DC-9984-2C10E14B0D8D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{47AB1375-4AE9-4098-9F38-EFE90A35113F} = {47AB1375-4AE9-4098-9F38-EFE90A35113F}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuraCpuSyncServiceUninstaller", "AuraCpuSyncServiceUninstaller\AuraCpuSyncServiceUninstaller.csproj", "{90C1722C-79FB-4906-A161-AC240CB75E8B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B32CFAED-5DA3-42E6-9F2E-7D563BCE23FD}"
+	ProjectSection(SolutionItems) = preProject
+		RyzenSync.ico = RyzenSync.ico
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47AB1375-4AE9-4098-9F38-EFE90A35113F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47AB1375-4AE9-4098-9F38-EFE90A35113F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47AB1375-4AE9-4098-9F38-EFE90A35113F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47AB1375-4AE9-4098-9F38-EFE90A35113F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{381CD26C-CCDA-46DC-9984-2C10E14B0D8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{381CD26C-CCDA-46DC-9984-2C10E14B0D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{381CD26C-CCDA-46DC-9984-2C10E14B0D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{381CD26C-CCDA-46DC-9984-2C10E14B0D8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90C1722C-79FB-4906-A161-AC240CB75E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90C1722C-79FB-4906-A161-AC240CB75E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90C1722C-79FB-4906-A161-AC240CB75E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90C1722C-79FB-4906-A161-AC240CB75E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D080F136-0089-4462-A67B-1D3255B2AE01}
+	EndGlobalSection
+EndGlobal
