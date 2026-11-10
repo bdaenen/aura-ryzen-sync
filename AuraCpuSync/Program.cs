@@ -85,7 +85,17 @@ namespace AuraCpuSync
 
             float? percentage = 1 - (maxTemp - temp) * 1 / (maxTemp - minTemp);
 
-            byte coldColorRed = (byte)settings.ColdColorBlue;
+            // Apparently Math.Clamp isn't a thing, so we do it the ugly way
+            if (percentage > 100.0f)
+            {
+                percentage = 100.0f;
+            }
+            else if (percentage < 0.0f)
+            {
+                percentage = 0.0f;
+            }
+
+            byte coldColorRed = (byte)settings.ColdColorRed;
             byte coldColorGreen = (byte)settings.ColdColorGreen;
             byte coldColorBlue = (byte)settings.ColdColorBlue;
             byte hotColorRed = (byte)settings.HotColorRed;
