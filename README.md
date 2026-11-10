@@ -54,9 +54,9 @@ If you want to enable Razer Chroma support, make sure you have Synapse 3 install
  If you wish to uninstall the service later, simply run `AuraCpuSyncServiceUninstaller.exe`
  
  __Note:__ Razer Chroma support does not seem to work when running as a service. As a workaround, you can add `AuraCpuSync.exe` to your startup items, although this will still keep a console window open.
- 
+
+**Make sure you have PawnIO installed or your temp readings will be wrong:** https://github.com/namazso/PawnIO.Setup
  
  ## Building
- This is fairly straightforward to build, although you will have to compile [LibreHardwareMonitorLib](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/tree/master/LibreHardwareMonitorLib) by yourself, and probably update the reference to it.
  
  The binaries from all three projects are written to `AuraCpuSync\bin\Release` instead of having their own release folder.
